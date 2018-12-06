@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #fff;
+  color: #fff; }
+
+.black {
+  color: #000; }
+
+/* NAVBAR */
+.navbar-top {
+  border-bottom: #0d8db4 solid 2px; }
+  .navbar-top .nav-link {
+    font-size: 1.25rem; }
+
+/* Home */
+#home {
+  padding-top: 105px; }
+
+#hero {
+  position: relative; }
+  #hero .hero-bg {
+    width: 100%;
+    height: 100%;
+    background: url(../img/mountains.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; }
+  #hero .hero-hero-bg {
+    background: rgba(19, 191, 221, 0.5); }
+
+.hero-wrapper {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero-inner {
+  text-align: center;
+  padding: 2rem 0; }
+  .hero-inner .fas {
+    margin-right: 0.7rem; }
+
+/* */
+.form-sub-wrapper {
+  background: #1b1b1b; }
+  .form-sub-wrapper .sub-form {
+    margin: 0; }
+    .form-sub-wrapper .sub-form .form-control, .form-sub-wrapper .sub-form .btn {
+      margin: 0.5rem; }
+
+/* */
+.service-item {
+  background: transparent;
+  border: #0d8db4 1px solid;
+  color: #000;
+  margin: 5px 0; }
+  .service-item .service-title {
+    padding-bottom: 4px;
+    border-bottom: transparent solid 1px; }
+
+.service-item.even {
+  background: #fff;
+  color: #1b1b1b; }
+  .service-item.even .service-title {
+    color: #17a7d3;
+    border-bottom-color: #0d8db4; }
+
+.service-item.odd {
+  background: #17a7d3;
+  color: #fff; }
+  .service-item.odd .service-title {
+    color: #fff;
+    border-bottom-color: #fff; }
+
+/* */
+.section-head {
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: #e4e4e4 solid 1px;
+  padding-bottom: 1.5rem; }
+  .section-head .section-title {
+    color: #17a7d3;
+    margin-bottom: 1.25rem; }
+
+.section-bottom {
+  margin-top: 2.75rem; }
+  .section-bottom .card-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  .section-bottom i.fas {
+    margin-right: 1rem;
+    font-size: 110%; }
+
+/* author */
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #0d55b4;
+  width: 30px;
+  transition: all 0.8s; }
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #17a7d3; }
+
+.authors-person .nav-link {
+  color: #17a7d3; }
+
+.authors-person:hover {
+  color: #fff !important; }
+  .authors-person:hover .card {
+    background: #0d8db4;
+    transition: 0.3s; }
+  .authors-person:hover .nav-link {
+    color: #fff; }
+
+.authors-img {
+  width: 60% !important;
+  margin: 0 auto;
+  border-radius: 50%; }
+
+.contact-form .btn {
+  background: #17a7d3;
+  border-color: #0d8db4; }
+
+.footer-wrapper {
+  background: #0d8db4; }
+
+@media (min-width: 768px) {
+  .hero-inner h1 {
+    font-size: 5.5rem; }
+  .form-sub-wrapper .sub-form .form-control, .form-sub-wrapper .sub-form .btn {
+    margin: 0; } }
